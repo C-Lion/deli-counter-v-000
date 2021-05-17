@@ -3,6 +3,7 @@ require 'pry'
 def line(array)
   #binding.pry
   #each name is in the array
+<<<<<<< HEAD
   # the names are listed starting from 1 
   
   new_modified_array = array.map.with_index(1) do |name, index|
@@ -30,6 +31,10 @@ def now_serving(array)
   end
   
 end
+=======
+  # the names are listed starting from log10
+  
+>>>>>>> 6787efd4fc4e2a30afd2c5f8a335a596b9717fcb
   
 end
   
